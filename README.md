@@ -1,4 +1,4 @@
-# vite-template
+# day-js-demo
 
 快速開發模板架構
 
