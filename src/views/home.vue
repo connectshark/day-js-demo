@@ -1,14 +1,15 @@
 <template>
-  <h2 class="text-2xl">第一頁由此開始</h2>
-  <p>{{time}}</p>
+  <Card/>
 </template>
 
 <script>
-import Day from 'dayjs'
+import Card from '../components/card.vue'
 export default {
+  components: {
+    Card
+  },
   setup () {
     return {
-      time: Day().format()
     }
   }
 }
