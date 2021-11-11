@@ -1,12 +1,15 @@
 <template>
   <Card/>
+  <Stamp/>
 </template>
 
 <script>
 import Card from '../components/card.vue'
+import Stamp from '../components/stamp.vue'
 export default {
   components: {
-    Card
+    Card,
+    Stamp
   },
   setup () {
     return {
